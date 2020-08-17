@@ -12,15 +12,13 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 # polls
 import os
 from pathlib import Path
+from mysite.secrets import *
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'z@g2p9uiwdb&a28u0m!i6$wl%1g2%_deo%&z^q_+o&^cnksve-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
